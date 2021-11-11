@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <header id="top-header">
+        <h1 class="centro">ME ACHA!</h1>
+        <h2 class="centro">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div>
+            <div class="centro logo pb-cima">
+                <span class="material-icons item"> travel_explore </span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div id="caixa">
+        <fieldset>
+            <label for="cep">Cep</label>
+            <input type="text" class="txt" id="cep" name="Cep" value="">
+            <label for="logradouro">Rua</label>
+            <input type="text" class="txt" id="logradouro" name="Logradouro" value="" disabled>
+            <label for="Bairro">Bairro</label>
+            <input type="text" class="txt" id="bairro" name="Bairro" value="" disabled>
+            <label for="Cidade">Cidade</label>
+            <input type="text" class="txt" id="localidade" name="Cidade" value="" disabled>
+            <label for="Estado">Estado</label>
+            <input type="text" class="txt" id="uf" name="Estado" value="" disabled>
+            <input type="button" class="botao" type="submit" id="botom" name="Buscar" value="BUSCAR">
+
+        </fieldset>
+    </div>
+    </main>
+</body>
+</html>
